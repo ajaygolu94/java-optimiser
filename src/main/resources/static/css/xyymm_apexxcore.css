@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	color: #393939;
+	font-family: Arial;
+	font-size: 0px;
+	line-height: 0;
+}
+
+#page-top-outer {
+	
+	height: 110px;
+	border-bottom: 1px solid #1f1f1d;
+	background: #1f1f1d;
+}
+
+#page-top {
+	margin: -13px auto;
+	max-width: 1260px;
+	min-width: 850px;
+	position: relative;
+}
+
+#logo {
+	float: left;
+	margin: 23px 0 0 20px;
+}
+
+.clear {
+	clear: both;
+	font-size: 0px;
+	height: 0;
+	line-height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.body-content {
+	width: 95%;
+	margin-left: 15px;
+}

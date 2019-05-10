@@ -1,0 +1,528 @@
+@font-face {
+    font-family: 'museo300';
+    src: url('../fonts/museo300-regular-webfont.woff2') format('woff2'),
+         url('../fonts/museo300-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{position:relative; height:100%;}
+body{ background:url(../img/optimiser_background_new_image.jpg); background-repeat:no-repeat; background-size:cover; background-attachment: fixed; position:relative; min-height:100%; font-family:'museo300' !important; font-size: 15px !important;}
+
+.caret {
+	margin-top: -11px;
+}
+
+.login-page{ margin:0px;}
+.main-page {text-align:center;  padding:30px 0px; background:rgba(14,0,77,0.7);}
+.form-group{margin:30px 0px;}
+.form-control1{width:100%;  display: block; max-width:40%; padding:12px 40px;  line-height: 1.5;   transition: box-shadow ease-in-out .15s; background-color: #fff; color:#eee;   margin: 0px auto; margin-bottom:20px; border-radius:20px; font-size:18px; 	border: none;}
+.form-main{
+	padding: 0px 15px;
+}
+
+.login{text-align:center;}
+.btn{padding:10px 40px;  background:rgba(14,0,77,0.1); color:#fff; border-radius:25px; font-size:22px; margin:20px 0px; font-weight:bold; 
+font-family:"Courier New", Courier, monospace; border:2px solid #fff; }
+.btn-default:hover{ background:#0e004d; color:#fff;}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff !important;
+    background-color: #060436 !important;
+}
+.navbar {
+    border-radius: 0px !important;
+}
+.header1 {min-height:150px !important;}
+.navbar-inverse {
+    background-color: #140f59 !important;
+    border-color: #140f59 !important;
+}
+
+/******************************** Forget Password*************************/
+
+.main-page h3{color:#fff;     margin-bottom: 0px;}
+.main-page h3 i{padding-right:5px;}
+.main-page p{color:#fff;}
+.form-control {
+    width: 100%;
+	max-width:100%;
+    padding: 11px 40px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+/********************* Sign Up Page *************************/
+.main-block {text-align:center;  padding:10px 0px; background:rgba(14,0,77,0.7);}
+.main-block h2{    margin-top: 0px; margin-bottom: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 24px;}
+.select-control{ width:100%; margin:0px auto; padding:10px; border-radius:5px; font-size:20px; font-family: 'Conv_ROBOTO-LIGHT_0'; src:url(fonts/ROBOTO-BOLD_0.eot); color:#ccc;}
+.form-content{width:100%;  display: block; padding:10px 20px;  line-height: 1.5;   transition: box-shadow ease-in-out .15s; background-color: #fff; color:#ccc;   margin: 0px auto; margin-bottom:20px; border-radius:20px; font-size:20px; 	border: none; font-family: 'Conv_ROBOTO-LIGHT_0'; src:url(fonts/ROBOTO-BOLD_0.eot);}
+
+/************************** Main Page******************************/
+
+.main-login{ margin:50px 0px 70px 0px;}
+.main-page1 {text-align:center;  padding:50px 0px; background:rgba(14,0,77,0.8); min-height:500px; }
+.main-page1 img{width:70%; padding:90.5px 0px;}
+.main-page2 {text-align:center;  padding:50px 0px; background:rgba(14,0,77,27); height:486px; !important}
+.main-page2 h4{color:#fff; font-size:22px; margin:30px 0px; font-family:"museo300";}
+.log-btn{border-bottom:1px solid #fff; }
+.button{padding:10px 40px;  background:rgba(255,255,255,1); color:#555; border-radius:25px; font-size:22px; margin:40px 0px; font-family:"Courier New", Courier, monospace; width:90%; border:none;}
+.button1{padding:10px 40px;  background:rgba(255,255,255,1); color:#555; border-radius:25px; font-size:22px; margin:20px 0px; font-family:"Courier New", Courier, monospace; width:90%; border:none;}
+
+
+
+/*****************************  Add Merchant *********************/
+
+.head{text-align:center;  padding:15px 0px; background:rgba(14,0,77,0.7);}	
+.head h4{color:#fff; font-family:"museo300";}
+.bottom{text-align:left;  padding:30px 30px 150px 30px; background:rgba(14,0,77,0.4); margin-bottom: 50px;}	
+.bottom h4{color:#fff; font-family:"museo300"; font-size:18px; border-bottom:1px solid #fff;}
+.form-fill{ width:100%; border:none; border-radius:20px; padding:10px;}
+.form-group-demo{margin:15px 0px;}
+.form-group-demo label{font-size:16px; color:#fff; font-family:"museo300";}
+.btn-box{ border-radius:20px; padding:5px 35px; color:#fff; background:rgba(14,0,77,0.1); border:2px solid #fff; font-size:20px; font-family:"museo300"; font-weight:500; line-height:1.5;}	
+
+.btn-box:hover{ background-color: #fff; color: darkblue;}
+
+/********************** Add or create merchant ***********************/
+
+.select-data{ background:rgba(14,0,77,0.1); border:2px solid #fff; padding:0px 5px; color:#fff;}
+.but_1{padding:7px 45px; background:rgba(255,255,255,1); border:none;}
+.form-demo{    float: right; 
+    font-size: 18px;
+    color: #fff; width: 100%;}
+.form-demo label{float:left; padding-right:10px; float:right;} 
+.list-data{color:#fff; margin-top:10px; border:none !important;}
+.bottom h5{color:#fff; font-family:"museo300"; font-size:18px; font-weight:300 !important; float:left;}
+.bottom h6{color:#fff; font-family:"museo300"; font-size:18px; font-weight:300 !important; float:right; }
+.form-text{ float:right; margin-top: -3px; color:#222;}
+.demo-form{float:left; width:100%;     }
+.form-inline{ width:100%; }
+.bottom h3{color:#fff; font-family:"museo300"; font-size:18px; border-bottom:1px solid #fff; padding-bottom:10px;}
+ .table-border{border:1px solid #fff;}
+.list td{border-right: 1px solid #fff;}
+.list td i{border:1px solid #fff; padding:4px; margin:0px 2px;}
+.list td a:hover{color:#fff; }
+.head_list th{border-right: 1px solid #fff; }
+.action-i{color:#fff;}
+.demo-form select option{background:rgba(14,0,77,0.1); border:2px solid #fff; padding:0px 5px; color:#fff;}
+
+
+
+/**************** header menu *****************/
+
+.header{background:#0e004d;}
+.navbar-inverse{ border:none; margin-bottom:0px;}
+.navbar-brand{ padding:0px; height: auto;}
+.navbar-brand img{width:70%;}
+.navbar-nav>li>a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.pm1{position:relative; padding:25px 0px 0px 25px;; width:800px; margin-top:20px !important;} 
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+/*.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{ color:#0093a3; background:#eee; padding:40px 20px; font-size:18px;}
+*/
+.navbar-inverse .navbar-nav>li>a:hover{ color:#000; background:#eee; padding:10px 10px;}
+.pull-right li a{font-size:16px; color:#fff;}
+.nav>li>a{position: relative;
+    display: block;
+    padding: 8px 8px 12px 8px !important;}
+.pull-right li a:hover{ padding:3px 20px; border:2px solid #fff; text-decoration:none; margin-top: -2px; margin-left: -2px; margin-right: -2px; margin-bottom: -2px;}
+
+.nav-tabs{border:none;}
+
+.dropdown-menu{
+	background:none; 
+	width: 152px !important;
+	left: 5px !important;
+	min-width: 0px !important;
+}
+
+.opt{
+    width: 123px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    position: relative;
+    display: inline-block;
+    height:18px;
+}
+
+/*******footer ******************/
+
+#footer {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 10px;
+    position:absolute;
+	background:#0e004d;
+	text-align:center;
+}
+#footer h6{font-size:14px; color:#fff; font-family:"museo300";}
+.action-i{color:#fff;}
+.bottom h6{color:#fff; font-family:"museo300"; font-size:18px; font-weight:300 !important; float:right; }
+.page-btn{border: 1px solid #fff;     padding: 1px 3px; margin:0px 7px;}
+.bottom h3{color:#fff; font-family:"museo300"; font-size:18px; border-bottom:1px solid #fff; padding-bottom:10px;}
+.form-demo{    float: right; 
+    font-size: 18px;
+    color: #fff; width: 100%;}
+.form-demo label{float:left; padding-right:10px; float:right;} 
+.head a{color:#fff;}
+.head a:hover{color:#39F;}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff !important;
+    font-size: 17px;
+}
+
+/*****************  View Merchant *************************/
+
+.head1{  padding:15px 0px; padding-bottom:0px;}
+.head1 h5{border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 0px; width:100%;}
+.head1 h5 a{color:#fff; font-size:16px;}
+.head1 h5 a:hover{color:#39F;}
+.head1 h4{font-weight:600; }
+.down{background: rgba(45,102,155,0.1); padding:20px;}
+.infoTab{border:1px solid #fff;}
+/* .left1{padding:0px !important; border-right:1px solid #fff;} */
+.left1 tr td{padding:5px; color:#fff; BORDER-TO }
+.left1 tr{ border-bottom:1px solid #fff; }
+.list1{text-align:left; width:70%;}
+.list2{width:200px;}
+.left1 {padding:10px;}
+.right1 tr td{padding:5px; color:#fff;}
+.right1 {padding:10px;}
+.list-item1{padding:0px !important; border:none !important;}
+
+.list-item{padding:0px !important; border-top:none; border-right:1px solid #fff;}
+
+.table .table {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.plus {
+    float: left !important;
+    width: 15px;
+    margin-right: 3px;
+    color: white; 
+}
+.minus {
+	float: left !important;
+    width: 15px;
+    margin-left: 34px;
+    color: white; 
+}
+
+.minus2{
+	margin-left: 40px !important;
+}
+.pm {
+	width: 70px !important;
+	float: left !important;
+	margin-top: 15px;
+}
+/******************************************* add_merchant_form start **************************************************/
+
+.top{  padding:15px 0px; }
+.top h4{font-weight:400; }
+.top h5{background:#fff; color:#33a3d7; padding:12px; border-radius:7px; font-size:16px;}
+.downForm{background: rgba(45,102,155,0.1); padding:0px !important;}
+.infoTabForm{border:1px solid #fff; margin-bottom:15px;}
+.left1Form tr td{padding:5px; color:#fff;}
+.list1Form{text-align:left;}
+.left1Form {padding:10px;}
+.right1Form tr td{padding:5px; color:#fff;}
+.right1Form {padding:10px;}
+.list2Form { margin: 10px 0 -10px 0; float: left; width: 350px !important;}
+.actionDiv {margin-left: 15px;}
+/******************************************* add_merchant_form end **************************************************/
+
+
+.control-label{color:#fff; font-weight:400;}
+.form-horizontal .control-label{text-align:left !important;}
+.downNew{text-align:center; border:1px solid #fff; padding:10px 0px;}
+.left1{padding:0px;}
+.right1{padding:0px;}
+
+.form-control2{
+	width:100%;
+    padding:10px;
+    display: block;
+   	font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.list1 > span{
+	padding-left: 10px
+}
+
+.hm {
+	font-size: 14px;
+}
+
+.pull-right li .active{
+	border: 2px solid #fff !important;
+	margin-top: -2px;
+	margin-left: -2px;
+	margin-right: -2px;
+	margin-bottom: -2px;
+}
+
+.nav>li>a:hover{
+	padding: 8px 8px 12px 8px !important;  
+	margin-left: -2px;
+    margin-right: -2px;
+    margin-top: -2px;
+}
+
+table.dataTable.no-footer{
+	border-bottom: 1px solid #fff !important;
+}
+
+.nav>li{
+	padding: 0px 5px;
+}
+
+.sub-table{
+	margin-top: -25px;
+    float: right;
+    width: 98% !important;
+}
+
+.sub-table-selector{
+    float: right;
+    width: 98% !important;
+}
+
+.navbar-nav>li>a {
+  line-height: 14px !important;
+}
+
+.menu_new{
+	height: 44px;
+}
+
+.glyphicon{
+	line-height: 0px !important;
+}
+
+/* For Home Page Box Menu Effect - Start */
+
+.panel{
+	background-color: transparent !important;
+}
+.panel-blue > .panel-heading {
+    border-color: #333;
+    color: #fff;
+  	background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(14,0,77,1) 100%);
+    min-height: 322px;
+	border-radius:5px;
+	width:100%;
+	max-width:322px;
+	margin:0px auto;
+}
+.panel-blue > .panel-heading:hover {
+    border-color: #777;
+    color: #fff;
+    background: linear-gradient(45deg, rgba(14,0,77,1) 0%, rgba(73,155,234,1) 100%);
+    min-height: 322px;
+	text-decoration:none;
+}
+.cen
+{
+	text-align:center;
+	margin-top:20%;
+}
+.huge
+{
+	font-size:16px;
+	margin-top: 10px;
+}
+
+.panel-footer {
+    color: #fff;
+    padding: 10px 15px;
+    background-color:transparent !important;
+    border-top: none !important;
+    width:50%;
+	text-align:center;
+	margin:50px auto;
+
+}
+.panel-footer span:hover{text-decoration:none;}
+#wht {
+    background-color: transparent;
+    color: #666;
+    border-radius: 5px;
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 61px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.sq{padding-top:15px; margin:0px 0px 100px 0px;}
+
+/* For Home Page Box Menu Effect - End */
+
+/* @media start */
+@media (max-width: 1200px)
+{
+.pull-right li a {
+    font-size: 14px;
+    color: #fff;
+}
+.pm1 {
+    position: relative;
+    padding: 0px 0px 0px 25px;
+    width: 700px;
+    margin-top: 20px !important;
+}
+.nav>li {
+    padding: 0px 5px;
+    margin-top: 20px;
+}
+.nav>li>a {
+    font-size: 16px !important;
+}
+}
+
+
+@media (max-width: 995px)
+{
+.alert-warning {
+    margin-top: 25px;
+}
+.alert-success{
+    margin-top: 25px;
+}
+.list2Form {
+    width: 100% !important;
+}
+.head1 h5 { 
+	margin-bottom: 20px; 
+}
+.form-main {
+    padding: 0px 15px;
+    margin-top: 40px;
+}
+.navbar-brand img {
+    width: 60%;
+}
+.pull-right li a {
+    font-size: 14px;
+    color: #fff;
+}
+.pm1 {
+    position: relative;
+    padding: 25px 0px 0px 25px;
+    width: 700px;
+    margin-top: 20px !important;
+}
+.downNew { 
+	margin-top: 30px; 
+}
+}
+
+@media (max-width: 768px)
+{
+.infoTabForm {
+	width: 100%;
+}
+.navbar {
+    border-radius: 0px;
+}
+.pm1 {
+    position: relative;
+    padding: 25px 0px 0px 25px;
+    width: inherit;
+    margin-top: 20px !important;
+}
+.pull-right li a {
+    font-size: 14px;
+    color: #fff;
+}
+.pm1 li a{text-align:right;}
+.navbar-brand img {
+    width: 60%;
+}
+}
+
+@media (max-width: 767px)
+{
+.pm1 {
+    position: relative;
+    padding: 25px 0px 0px 25px;
+    width: 180px;
+    margin-top: 20px !important;
+}
+}
+
+@media (max-width: 615px)
+{
+.list2Form {
+    margin: 10px 0 -10px 0;
+    float: left;
+    width: 100%;
+    max-width: 350px;
+}
+}
+
+@media (max-width: 530px)
+{
+.alert-warning {
+    margin-top: 60px;
+}
+.alert-success{
+    margin-top: 60px;
+}
+.downNew { 
+	margin-top: 50px; 
+}
+}
+
+@media (max-width: 395px)
+{
+.alert-warning {
+    margin-top: 80px;
+}
+.alert-success{
+    margin-top: 80px;
+}
+.downNew { 
+	margin-top: 85px; 
+}
+.navbar-brand img {
+    width: 60%;
+    margin-top: -35px !important;
+}
+}

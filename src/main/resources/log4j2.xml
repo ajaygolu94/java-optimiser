@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<Console name="Console-Appender" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>
+					%d{dd/MM/yyyy@HH:mm:ss a} %-5p: %c - %m%n
+				</pattern>
+			</PatternLayout>
+		</Console>
+		<File name="App-Appender" fileName="./optimiser.log">
+			<PatternLayout>
+				<pattern>
+					%d{dd/MM/yyyy@HH:mm:ss a} %-5p: %c - %m%n
+				</pattern>
+			</PatternLayout>
+		</File>
+		<Cassandra name="Cassandra" clusterName="Test Cluster" keyspace="optimiser" table="errorlog" batched="true">
+			<MarkerFilter marker="error" onMatch="ACCEPT" onMismatch="DENY" />
+			<SocketAddress host="localhost" port="9042" />
+			<ColumnMapping name="errorlogid" pattern="%uuid{TIME}" type="java.util.UUID" />
+			<ColumnMapping name="identifier" pattern="%X{identifier}" />
+			<ColumnMapping name="message" pattern="%c %m%n" />
+			<ColumnMapping name="classname" pattern="%c" />
+			<ColumnMapping name="audittimestamp" pattern="%d{dd/MM/yyyy HH:mm:ss a}" />
+			<ColumnMapping name="type" pattern="%level" />
+		</Cassandra>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="org.springframework.web" level="info" additivity="false">
+			<AppenderRef ref="Console-Appender" />
+			<AppenderRef ref="App-Appender" />
+			<AppenderRef ref="Cassandra" />
+		</Logger>
+		<Logger name="co.uk.xcordis.optimiser" level="info" additivity="false">
+			<AppenderRef ref="Console-Appender" />
+			<AppenderRef ref="App-Appender" />
+			<AppenderRef ref="Cassandra" />
+		</Logger>
+		<Root level="info">
+			<AppenderRef ref="Console-Appender" />
+			<AppenderRef ref="App-Appender" />
+			<AppenderRef ref="Cassandra" />
+		</Root>
+	</Loggers>
+</Configuration>
